@@ -5,6 +5,7 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
+
 //TODO: Improve Prompt
 export const generateGurbaniCouplet = async () => {
   try {
